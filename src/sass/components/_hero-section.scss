@@ -1,0 +1,35 @@
+.hero {
+  padding-top: 110px;
+  padding-bottom: 40px;
+
+  &__subtitle {
+    margin-top: 0;
+    margin-bottom: 19px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: $titleTextColor;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    width: 400px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $mainTextColor;
+  }
+}

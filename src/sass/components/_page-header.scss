@@ -1,0 +1,80 @@
+header {
+  position: absolute;
+  padding-bottom: 366px;
+  max-width: 370px;
+  max-height: 1313px;
+  background-color: #1E2939;
+  color: $headerMainColor;
+}
+
+.hero-image {
+  margin-top: 40px;
+}
+
+.contacts {
+  margin-left: 40px;
+  margin-top: 51px;
+  margin-bottom: 47px;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 8px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: $headerMainColor;
+    opacity: 0.5;
+  }
+}
+
+.text-span {
+  margin-right: 13px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.skills-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: 40px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.skills-list {
+  margin-left: 40px;
+  margin-bottom: 44px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  &__item::marker {
+    color: $accentColor;
+  }
+  &__item:hover {
+    color: $accentColor;
+  }
+}
+

@@ -1,0 +1,18 @@
+.project {
+  padding-bottom: 51px;
+
+  &__list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+
+    color: $mainTextColor;
+  }
+}
